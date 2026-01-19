@@ -46,7 +46,7 @@ var (
 	helpStyle = lipgloss.NewStyle().
 			Foreground(subtle).
 			MarginTop(1).
-			MarginLeft(1)
+			MarginLeft(2)
 
 	inputStyle = lipgloss.NewStyle().
 			BorderStyle(lipgloss.RoundedBorder()).
@@ -56,7 +56,8 @@ var (
 
 	confirmStyle = lipgloss.NewStyle().
 			Foreground(lipgloss.Color("#E74C3C")).
-			Bold(true)
+			Bold(true).
+			MarginLeft(2)
 
 	separatorStyle = lipgloss.NewStyle().
 			Foreground(subtle).
